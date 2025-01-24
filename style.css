@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo básico do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz o container ocupar toda a altura da tela */
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo para a mensagem */
+.message h1 {
+    font-size: 36px;
+    color: #e91e63; /* Cor rosa */
+    margin-bottom: 20px;
+}
+
+.message p {
+    font-size: 18px;
+    color: #333; /* Texto cinza escuro */
+    margin: 10px 0;
+}
+
+/* Efeito de transição de cor no texto */
+.message h1:hover {
+    color: #d81b60; /* Cor mais escura do rosa ao passar o mouse */
+    transition: 0.3s;
+}
